@@ -12,13 +12,6 @@ function defaults(obj, defaultProps) {
   }
   return obj;
 }
-     
-  
-
-
-
-
-
 module.exports = {
   defaults
 };
