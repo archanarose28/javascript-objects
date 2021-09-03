@@ -5,15 +5,11 @@ function mapObject(obj, cb) {
   
 for(let key in obj)
 {
-obj[key]=callbackmap(obj[key]);
+obj[key]=cb(key,obj[key]);
 } 
 return obj;
 }
-//callback function
-function callbackmap(elem) {
-   return elem*3;   //triple each property
-};
+
 module.exports = {
   f1: mapObject,
-  f2: callbackmap,
 };
