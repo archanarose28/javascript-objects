@@ -1,0 +1,25 @@
+{
+  "name": "jsdrillsobjects",
+  "version": "1.0.0",
+  "description": "1. Copy the repository link.\r 2. Open the VS Code editor.\r 3. Using clone \"repo-link\" command clone the repository.\r 4. Running the following files inside a folder called test will give the ouput of each problem respectively:",
+  "main": "defaults.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archanarose28/javascript-objects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archanarose28/javascript-objects/issues"
+  },
+  "homepage": "https://github.com/archanarose28/javascript-objects#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
